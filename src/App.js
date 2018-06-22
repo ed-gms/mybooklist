@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import NavBar from './components/NavBar';
+import Main from './components/Main';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <NavBar />
-        <p>This is my app...</p>
+        <Main />
       </div>
     );
   }
