@@ -6,6 +6,7 @@ import SingleBook from './components/SingleBook';
 
 class App extends Component {
   render() {
+    console.log(this.match);
     return (
       <div>
         <NavBar />
