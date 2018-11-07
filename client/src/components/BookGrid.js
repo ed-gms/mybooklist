@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import Books from '../../src/mockup-data.json';
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import Books from "../mockup-data.json";
 
 class BookGrid extends Component {
   render() {
