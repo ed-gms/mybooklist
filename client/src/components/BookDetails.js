@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import Books from "../mockup-data.json";
 
-class SingleBook extends Component {
+class BookDetails extends Component {
   render() {
+    console.log(this.props.match.params);
     return (
       <div className="single-book">
         <p style={{ fontSize: 24, fontWeight: "bold", color: "red" }}>
@@ -18,4 +19,4 @@ class SingleBook extends Component {
   }
 }
 
-export default SingleBook;
+export default BookDetails;

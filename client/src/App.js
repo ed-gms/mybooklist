@@ -1,18 +1,21 @@
 import React, { Component } from "react";
-import { Switch, Route } from "react-router-dom";
-import NavBar from "./components/NavBar";
-import Main from "./components/Main";
-import SingleBook from "./components/SingleBook";
+// import { Switch, Route } from "react-router-dom";
+// import NavBar from "./components/NavBar";
+// import Main from "./components/Main";
+// import BookDetails from "./components/BookDetails";
+import Book from "./components/Book";
 
 class App extends Component {
   render() {
     return (
       <div>
-        <NavBar />
+        <Book />
+        {/* <NavBar />
 
         <Switch>
           <Route exact path="/" component={Main} />
-        </Switch>
+          <Route exact path="/books/:bookId" component={BookDetails} />
+        </Switch> */}
       </div>
     );
   }
